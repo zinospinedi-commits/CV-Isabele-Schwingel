@@ -1,0 +1,127 @@
+🇫🇷 [Voir la version française](README_FR.md)
+# Isabele Schwingel
+
+**QA Laboratory Technician | GMP | Microbiology | HPLC | MedTech**
+
+📍 Gampelen, Switzerland  
+📧 belischwingel@gmail.com  
+📞 +41 79 798 32 66  
+
+---
+
+## Professional Profile
+
+Experienced QA Laboratory Technician with a strong background in microbiology, chemistry, cleanroom operations, and GMP-regulated MedTech environments.
+
+Skilled in laboratory analysis, equipment validation, environmental monitoring, documentation, and quality control. Proven ability to work independently, maintain high compliance standards, and support reliable laboratory operations in regulated production environments.
+
+---
+
+## Core Competencies
+
+- GMP Compliance
+- Microbiology & Chemistry Laboratory Testing
+- HPLC and LAL Analysis
+- Cleanroom Monitoring ISO 8 / ISO 9
+- Environmental Monitoring
+- Equipment Calibration and Validation
+- Water Microbiology by Membrane Filtration
+- Sterilizer Validation
+- Laboratory Documentation
+- Quality Control in MedTech Production
+- Oracle, Agile, ETQ
+- ECDL Certified
+
+---
+
+## Professional Experience
+
+### QA Laboratory Technician – Microbiology & Chemistry  
+**Integra LifeSciences**  
+*October 2020 – Present*
+
+- Perform qualitative and quantitative laboratory analyses, including LAL and HPLC
+- Prepare and issue laboratory reports based on collected analytical data
+- Calibrate, control, and sterilise laboratory instruments including balances, pipettes, refrigerators, incubators, air samplers, particle counters, and conductivity meters
+- Manage laboratory stock and order materials required for daily operations
+- Handle laboratory waste according to applicable standards
+- Perform biological indicator recovery analysis
+- Read and evaluate culture media
+- Validate laboratory methods and equipment
+- Support annual validation of Fedegari and Getinge steam sterilizers
+- Monitor surfaces, air, particles, and gases in ISO 8 and ISO 9 cleanrooms
+- Perform microbiological water analysis by membrane filtration
+- Prepare validation protocols and equipment mapping documentation
+- Work according to GMP standards
+
+---
+
+### Cleanroom Operator  
+**Integra LifeSciences**  
+*June 2019 – October 2020*
+
+- Worked in medical device production before Swiss diploma recognition
+- Applied GMP standards in daily cleanroom operations
+- Followed strict hygiene and safety procedures
+- Produced and controlled medical products
+- Respected production rhythm and delivery deadlines
+
+---
+
+### Biomedical Specialist  
+**Corpus Clinic & Emagrecentro, Brazil**  
+*March 2015 – December 2017*
+
+- Held clinical and technical responsibility
+- Performed aesthetic treatments including botulinum toxin and hyaluronic acid applications
+- Used specialised aesthetic medical equipment
+
+---
+
+### Laboratory Assistant  
+**Hospital Virvi Ramos, Brazil**  
+*August 2013 – October 2015*
+
+- Conducted laboratory analyses and diagnostic tests
+- Verified test results
+- Analysed blood samples and serology tests
+- Supported the development of diagnostic methods
+
+---
+
+## Education
+
+### Postgraduate Specialisation in Biomedical Sciences  
+*2015 – 2016*
+
+### Bachelor in Biomedical Sciences with Clinical Analysis Qualification  
+*2009 – 2014*
+
+### Studies in Accounting Sciences  
+*2007 – 2009*
+
+---
+
+## Languages
+
+- Portuguese — Native
+- French — Excellent spoken and written
+- English — Very good spoken and written
+- German — Currently learning
+
+---
+
+## Additional Information
+
+- Swiss Permit B
+- Nationality: Italian and Brazilian
+- Marital status: Married
+
+---
+
+## Reference
+
+**Alain Spinedi**  
+CEO, Louis Erard SA  
+📞 +41 79 240 32 92  
+📧 alain.spinedi@gmail.com
