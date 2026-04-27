@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Isabele Schwingel Spinedi – CV</title>
+  <meta
+    name="description"
+    content="CV d’Isabele Schwingel Spinedi – QA Laboratory Technician, GMP, microbiologie, chimie, HPLC, LAL et environnement MedTech."
+  />
+
+  <style>
+    :root{
+      --bg:#0f172a;
+      --panel:#111827;
+      --text:#f1f5f9;
+      --muted:#94a3b8;
+      --line:#1e293b;
+      --accent:#3b82f6;
+      --accent-2:#38bdf8;
+      --radius:18px;
+      --shadow:0 20px 50px rgba(0,0,0,0.28);
+    }
+
+    *{box-sizing:border-box;}
+    html,body{height:100%;}
+
+    body{
+      margin:0;
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.55;
+      -webkit-font-smoothing:antialiased;
+      text-rendering:optimizeLegibility;
+    }
+
+    a{color:inherit;text-decoration:none;}
+
+    .wrap{
+      max-width:1100px;
+      margin:0 auto;
+      padding:40px 20px 72px;
+    }
+
+    .top{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:12px;
+    }
+
+    .dot{
+      width:10px;
+      height:10px;
+      border-radius:999px;
+      background:linear-gradient(135deg,var(--accent),var(--accent-2));
+      box-shadow:0 0 0 4px rgba(29,78,216,0.10);
+    }
+
+    .lang{
+      font-size:0.9rem;
+      color:var(--muted);
+      display:flex;
+      align-items:center;
+      gap:8px;
+      user-select:none;
+    }
+
+    .btn{
+      border:1px solid var(--line);
+      background:#fff;
+      color:#0f172a;
+      border-radius:999px;
+      padding:8px 12px;
+      font-size:0.9rem;
+      cursor:pointer;
+      transition:transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+    }
+
+    .btn:hover{
+      transform:translateY(-1px);
+      border-color:rgba(29,78,216,0.35);
+      box-shadow:0 10px 20px rgba(2,6,23,0.18);
+    }
+
+    .hero{
+      border:1px solid var(--line);
+      background:linear-gradient(180deg, rgba(29,78,216,0.05), rgba(14,165,233,0.02));
+      border-radius:var(--radius);
+      padding:24px;
+      box-shadow:var(--shadow);
+      position:relative;
+      overflow:hidden;
+    }
+
+    .hero::after{
+      content:"";
+      position:absolute;
+      right:-120px;
+      top:-120px;
+      width:260px;
+      height:260px;
+      border-radius:999px;
+      background:radial-gradient(circle at 30% 30%, rgba(29,78,216,0.20), transparent 60%);
+      pointer-events:none;
+    }
+
+    .hero-inner{
+      display:grid;
+      grid-template-columns:200px 1fr;
+      gap:28px;
+      align-items:center;
+      position:relative;
+      z-index:1;
+    }
+
+    @media (max-width:700px){
+      .hero-inner{grid-template-columns:1fr;}
+    }
+
+    .avatar{
+      width:200px;
+      height:200px;
+      border-radius:30px;
+      overflow:hidden;
+      border:1px solid rgba(255,255,255,0.18);
+      box-shadow:0 20px 40px rgba(0,0,0,0.45);
+      background:#eef4ff;
+    }
+
+    .avatar img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      display:block;
+    }
+
+    h1{
+      margin:0;
+      font-size:2.2rem;
+      letter-spacing:-0.6px;
+      line-height:1.1;
+    }
+
+    .sub{
+      margin-top:10px;
+      color:var(--muted);
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px 14px;
+      align-items:center;
+      font-size:0.98rem;
+    }
+
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:6px 10px;
+      border-radius:999px;
+      background:#ffffff;
+      border:1px solid rgba(29,78,216,0.20);
+      color:rgba(15,23,42,0.92);
+    }
+
+    .pill i{
+      width:8px;
+      height:8px;
+      border-radius:999px;
+      background:var(--accent);
+      display:inline-block;
+      box-shadow:0 0 0 4px rgba(29,78,216,0.08);
+    }
+
+    .grid{
+      margin-top:22px;
+      display:grid;
+      grid-template-columns:320px 1fr;
+      gap:18px;
+      align-items:start;
+    }
+
+    @media (max-width:860px){
+      .grid{grid-template-columns:1fr;}
+    }
+
+    .card{
+      background:var(--panel);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:18px;
+      color:var(--text);
+    }
+
+    .left.card{
+      background:linear-gradient(180deg, #1f2937, #e5e7eb);
+    }
+
+    @media (min-width:861px){
+      .left.card{position:sticky;top:18px;}
+    }
+
+    .kicker{
+      font-size:0.78rem;
+      letter-spacing:0.12em;
+      text-transform:uppercase;
+      color:#60a5fa;
+      margin:0 0 10px;
+    }
+
+    .section-title{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      margin:0 0 12px;
+    }
+
+    .section-title h2{
+      margin:0;
+      font-size:1.05rem;
+      letter-spacing:-0.2px;
+    }
+
+    .line{
+      height:1px;
+      background:linear-gradient(90deg, rgba(29,78,216,0.55), rgba(14,165,233,0.10), transparent);
+      flex:1;
+    }
+
+    .muted{color:var(--muted);}
+
+    .facts{
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      margin-top:10px;
+    }
+
+    .fact{
+      display:flex;
+      gap:10px;
+      align-items:flex-start;
+      padding:10px;
+      border-radius:14px;
+      border:1px solid rgba(226,232,240,0.9);
+      background:rgba(255,255,255,0.7);
+      transition:transform .15s ease, border-color .15s ease;
+    }
+
+    .fact:hover{
+      transform:translateY(-1px);
+      border-color:rgba(29,78,216,0.28);
+    }
+
+    .fact .icon{
+      width:30px;
+      height:30px;
+      border-radius:10px;
+      background:rgba(29,78,216,0.10);
+      display:grid;
+      place-items:center;
+      color:rgba(29,78,216,0.95);
+      font-weight:700;
+      font-size:0.9rem;
+      flex:0 0 auto;
+    }
+
+    .fact .label{
+      font-size:0.85rem;
+      color:#64748b;
+      margin-bottom:2px;
+    }
+
+    .fact .value{
+      font-size:0.95rem;
+      color:rgba(15,23,42,0.95);
+      word-break:break-word;
+    }
+
+    .pills{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin-top:8px;
+    }
+
+    .tag{
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(59,130,246,0.32);
+      background:rgba(59,130,246,0.12);
+      font-size:0.88rem;
+      transition:transform .15s ease, background .15s ease, border-color .15s ease;
+    }
+
+    .tag:hover{
+      transform:translateY(-1px);
+      border-color:rgba(29,78,216,0.45);
+      background:rgba(29,78,216,0.16);
+    }
+
+    .block{margin-bottom:18px;}
+    .para{margin:0 0 10px; color:var(--text);}
+
+    .job{
+      padding:16px;
+      border-radius:16px;
+      border:1px solid rgba(226,232,240,0.20);
+      background:#111827;
+      transition:transform .15s ease, border-color .15s ease, box-shadow .15s ease;
+      margin-top:12px;
+    }
+
+    .job:hover{
+      transform:translateY(-1px);
+      border-color:rgba(29,78,216,0.35);
+      box-shadow:0 14px 28px rgba(2,6,23,0.20);
+    }
+
+    .job-head{
+      display:flex;
+      justify-content:space-between;
+      gap:12px;
+      flex-wrap:wrap;
+      align-items:baseline;
+    }
+
+    .job-title{
+      font-weight:650;
+      font-size:1.02rem;
+      letter-spacing:-0.2px;
+    }
+
+    .job-meta{
+      color:var(--muted);
+      font-size:0.92rem;
+    }
+
+    ul{margin:10px 0 0;padding-left:18px;}
+    li{margin:6px 0;}
+
+    .reveal{
+      opacity:0;
+      transform:translateY(10px);
+      transition:opacity .45s ease, transform .45s ease;
+    }
+
+    .reveal.visible{
+      opacity:1;
+      transform:translateY(0);
+    }
+
+    .stagger li{
+      opacity:0;
+      transform:translateY(6px);
+    }
+
+    .stagger.visible li{animation:rise .36s ease forwards;}
+    .stagger.visible li:nth-child(1){animation-delay:.04s}
+    .stagger.visible li:nth-child(2){animation-delay:.08s}
+    .stagger.visible li:nth-child(3){animation-delay:.12s}
+    .stagger.visible li:nth-child(4){animation-delay:.16s}
+    .stagger.visible li:nth-child(5){animation-delay:.20s}
+    .stagger.visible li:nth-child(6){animation-delay:.24s}
+    .stagger.visible li:nth-child(7){animation-delay:.28s}
+    .stagger.visible li:nth-child(8){animation-delay:.32s}
+
+    @keyframes rise{
+      to{opacity:1;transform:translateY(0);}
+    }
+
+    @media (prefers-reduced-motion: reduce){
+      *{animation:none !important;transition:none !important;scroll-behavior:auto !important;}
+      .reveal{opacity:1;transform:none;}
+      .stagger li{opacity:1;transform:none;}
+    }
+
+    @media print{
+      .btn,.top{display:none;}
+      .wrap{padding:0;}
+      .hero,.card{box-shadow:none;}
+      body{background:#fff;color:#000;}
+      .card,.hero,.job{background:#fff;color:#000;border-color:#ccc;}
+      .muted,.job-meta{color:#555;}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <div class="top">
+      <div class="brand">
+        <div class="dot" aria-hidden="true"></div>
+        <div class="muted" data-fr="CV Professionnel" data-en="Professional CV"></div>
+      </div>
+
+      <div class="lang">
+        <span data-fr="Langue" data-en="Language"></span>
+        <button class="btn" id="langBtn" type="button" aria-label="Toggle language">FR</button>
+      </div>
+    </div>
+
+    <header class="hero reveal">
+      <div class="hero-inner">
+        <div class="avatar">
+          <img src="profil.jpg" alt="Photo d’Isabele Schwingel Spinedi" />
+        </div>
+
+        <div>
+          <h1>Isabele Schwingel Spinedi</h1>
+          <div class="sub">
+            <span class="pill">
+              <i></i>
+              <span data-fr="Technicienne QA laboratoire – GMP, microbiologie & chimie" data-en="QA Laboratory Technician – GMP, Microbiology & Chemistry"></span>
+            </span>
+            <span class="muted">Gampelen BE, Suisse</span>
+            <span class="muted">+41 79 798 32 66 · belischwingel@gmail.com</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="grid">
+
+      <aside class="left card reveal">
+        <p class="kicker" data-fr="Aperçu" data-en="Highlights"></p>
+
+        <div class="section-title">
+          <h2 data-fr="Points clés" data-en="Core Focus"></h2>
+          <div class="line" aria-hidden="true"></div>
+        </div>
+
+        <div class="pills">
+          <span class="tag" data-fr="GMP" data-en="GMP"></span>
+          <span class="tag" data-fr="Microbiologie" data-en="Microbiology"></span>
+          <span class="tag" data-fr="Chimie" data-en="Chemistry"></span>
+          <span class="tag" data-fr="HPLC" data-en="HPLC"></span>
+          <span class="tag" data-fr="LAL" data-en="LAL"></span>
+          <span class="tag" data-fr="Salles blanches ISO 8/9" data-en="ISO 8/9 Cleanrooms"></span>
+          <span class="tag" data-fr="Validation" data-en="Validation"></span>
+          <span class="tag" data-fr="MedTech" data-en="MedTech"></span>
+        </div>
+
+        <div style="height:14px"></div>
+
+        <div class="section-title">
+          <h2 data-fr="Détails" data-en="Details"></h2>
+          <div class="line" aria-hidden="true"></div>
+        </div>
+
+        <div class="facts">
+          <div class="fact">
+            <div class="icon">📍</div>
+            <div>
+              <div class="label" data-fr="Adresse" data-en="Location"></div>
+              <div class="value" data-fr="Gampelen BE, Suisse" data-en="Gampelen BE, Switzerland"></div>
+            </div>
+          </div>
+
+          <div class="fact">
+            <div class="icon">💼</div>
+            <div>
+              <div class="label" data-fr="Domaine" data-en="Field"></div>
+              <div class="value" data-fr="QA laboratoire, MedTech, microbiologie et chimie" data-en="QA laboratory, MedTech, microbiology and chemistry"></div>
+            </div>
+          </div>
+
+          <div class="fact">
+            <div class="icon">🌍</div>
+            <div>
+              <div class="label" data-fr="Langues" data-en="Languages"></div>
+              <div class="value" data-fr="Portugais, français, anglais, allemand en apprentissage" data-en="Portuguese, French, English, German in progress"></div>
+            </div>
+          </div>
+
+          <div class="fact">
+            <div class="icon">🪪</div>
+            <div>
+              <div class="label" data-fr="Statut" data-en="Status"></div>
+              <div class="value" data-fr="Permis suisse B · Nationalités italienne et brésilienne" data-en="Swiss B permit · Italian and Brazilian nationalities"></div>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <main class="card reveal">
+
+        <div class="block">
+          <div class="section-title">
+            <h2 data-fr="Profil" data-en="Profile"></h2>
+            <div class="line" aria-hidden="true"></div>
+          </div>
+
+          <p class="para"
+             data-fr="Technicienne de laboratoire QA avec une solide expérience en microbiologie, chimie, salles blanches et environnements MedTech réglementés par les normes GMP. Expérimentée dans les analyses HPLC et LAL, la validation d’équipements, le monitoring environnemental et la documentation qualité."
+             data-en="QA Laboratory Technician with strong experience in microbiology, chemistry, cleanroom operations and GMP-regulated MedTech environments. Experienced in HPLC and LAL testing, equipment validation, environmental monitoring and quality documentation."></p>
+
+          <p class="para"
+             data-fr="Profil autonome, rigoureux et orienté conformité, capable de soutenir les opérations de laboratoire dans des environnements de production exigeants."
+             data-en="Autonomous, precise and compliance-focused profile, able to support laboratory operations in demanding production-critical environments."></p>
+        </div>
+
+        <div class="block">
+          <div class="section-title">
+            <h2 data-fr="Expérience professionnelle" data-en="Professional Experience"></h2>
+            <div class="line" aria-hidden="true"></div>
+          </div>
+
+          <article class="job reveal">
+            <div class="job-head">
+              <div class="job-title" data-fr="Technicienne QA laboratoire – Microbiologie & Chimie · Integra LifeSciences" data-en="QA Laboratory Technician – Microbiology & Chemistry · Integra LifeSciences"></div>
+              <div class="job-meta" data-fr="Octobre 2020 – Aujourd’hui" data-en="October 2020 – Present"></div>
+            </div>
+            <ul class="stagger">
+              <li data-fr="Réalisation d’analyses qualitatives et quantitatives, notamment LAL et HPLC" data-en="Conduct qualitative and quantitative analyses, including LAL and HPLC"></li>
+              <li data-fr="Émission de rapports de laboratoire à partir des données collectées" data-en="Prepare and issue laboratory reports based on collected analytical data"></li>
+              <li data-fr="Étalonnage, contrôle et stérilisation d’instruments de laboratoire" data-en="Calibrate, control and sterilise laboratory instruments"></li>
+              <li data-fr="Gestion des stocks et commandes du matériel nécessaire au laboratoire" data-en="Manage laboratory stock and order materials required for operations"></li>
+              <li data-fr="Validation de méthodes de laboratoire et d’équipements" data-en="Validate laboratory methods and equipment"></li>
+              <li data-fr="Validation annuelle des stérilisateurs à vapeur Fedegari et Getinge" data-en="Support annual validation of Fedegari and Getinge steam sterilizers"></li>
+              <li data-fr="Contrôle des surfaces, de l’air, des particules et des gaz en salles blanches ISO 8 et ISO 9" data-en="Perform environmental monitoring of surfaces, air, particles and gases in ISO 8 and ISO 9 cleanrooms"></li>
+              <li data-fr="Analyse microbiologique de l’eau par filtration sur membrane selon les normes GMP" data-en="Perform microbiological water analysis by membrane filtration under GMP standards"></li>
+            </ul>
+          </article>
+
+          <article class="job reveal">
+            <div class="job-head">
+              <div class="job-title" data-fr="Opératrice en salle blanche · Integra LifeSciences" data-en="Cleanroom Operator · Integra LifeSciences"></div>
+              <div class="job-meta" data-fr="Juin 2019 – Octobre 2020" data-en="June 2019 – October 2020"></div>
+            </div>
+            <ul class="stagger">
+              <li data-fr="Production et contrôle de produits médicaux en environnement salle blanche" data-en="Production and quality control of medical products in cleanroom environment"></li>
+              <li data-fr="Application quotidienne des normes GMP, d’hygiène et de sécurité" data-en="Daily application of GMP, hygiene and safety standards"></li>
+              <li data-fr="Respect des cadences de production et des délais de livraison" data-en="Respect production rhythm and delivery deadlines"></li>
+            </ul>
+          </article>
+
+          <article class="job reveal">
+            <div class="job-head">
+              <div class="job-title" data-fr="Biomédecine · Clinique Corpus & Emagrecentro, Brésil" data-en="Biomedical Specialist · Corpus Clinic & Emagrecentro, Brazil"></div>
+              <div class="job-meta" data-fr="Mars 2015 – Décembre 2017" data-en="March 2015 – December 2017"></div>
+            </div>
+            <ul class="stagger">
+              <li data-fr="Responsabilité clinique et technique" data-en="Clinical and technical responsibility"></li>
+              <li data-fr="Réalisation de traitements esthétiques, incluant toxine botulique et acide hyaluronique" data-en="Performed aesthetic treatments including botulinum toxin and hyaluronic acid"></li>
+              <li data-fr="Utilisation d’équipements spécialisés à des fins esthétiques" data-en="Used specialised aesthetic medical equipment"></li>
+            </ul>
+          </article>
+
+          <article class="job reveal">
+            <div class="job-head">
+              <div class="job-title" data-fr="Assistante de laboratoire · Hôpital Virvi Ramos, Brésil" data-en="Laboratory Assistant · Hospital Virvi Ramos, Brazil"></div>
+              <div class="job-meta" data-fr="Août 2013 – Octobre 2015" data-en="August 2013 – October 2015"></div>
+            </div>
+            <ul class="stagger">
+              <li data-fr="Réalisation d’analyses et de tests diagnostiques" data-en="Conducted laboratory analyses and diagnostic tests"></li>
+              <li data-fr="Vérification des résultats de tests" data-en="Verified test results"></li>
+              <li data-fr="Analyse du sang et des sérologies" data-en="Analysed blood samples and serology tests"></li>
+              <li data-fr="Développement de méthodes diagnostiques" data-en="Supported the development of diagnostic methods"></li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="block">
+          <div class="section-title">
+            <h2 data-fr="Formation" data-en="Education"></h2>
+            <div class="line" aria-hidden="true"></div>
+          </div>
+
+          <article class="job reveal">
+            <div class="job-head">
+              <div class="job-title" data-fr="Spécialisation post-grade en sciences biomédicales" data-en="Postgraduate Specialisation in Biomedical Sciences"></div>
+              <div class="job-meta" data-fr="2015 – 2016" data-en="2015 – 2016"></div>
+            </div>
+          </article>
+
+          <article class="job reveal">
+            <div class="job-head">
+              <div class="job-title" data-fr="Bachelor en sciences biomédicales avec qualification en analyses cliniques" data-en="Bachelor in Biomedical Sciences with Clinical Analysis Qualification"></div>
+              <div class="job-meta" data-fr="2009 – 2014" data-en="2009 – 2014"></div>
+            </div>
+          </article>
+
+          <article class="job reveal">
+            <div class="job-head">
+              <div class="job-title" data-fr="Études en sciences comptables" data-en="Studies in Accounting Sciences"></div>
+              <div class="job-meta" data-fr="2007 – 2009" data-en="2007 – 2009"></div>
+            </div>
+          </article>
+        </div>
+
+        <div class="block">
+          <div class="section-title">
+            <h2 data-fr="Compétences techniques" data-en="Technical Skills"></h2>
+            <div class="line" aria-hidden="true"></div>
+          </div>
+
+          <article class="job reveal">
+            <ul class="stagger">
+              <li data-fr="Conformité GMP" data-en="GMP compliance"></li>
+              <li data-fr="Analyses HPLC et LAL" data-en="HPLC and LAL testing"></li>
+              <li data-fr="Monitoring environnemental en salles blanches ISO 8/9" data-en="Environmental monitoring in ISO 8/9 cleanrooms"></li>
+              <li data-fr="Validation, calibration et mapping d’équipements" data-en="Equipment validation, calibration and mapping"></li>
+              <li data-fr="Analyse microbiologique de l’eau par filtration sur membrane" data-en="Microbiological water analysis by membrane filtration"></li>
+              <li data-fr="Oracle, Agile, ETQ et ECDL" data-en="Oracle, Agile, ETQ and ECDL"></li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="block">
+          <div class="section-title">
+            <h2 data-fr="Langues" data-en="Languages"></h2>
+            <div class="line" aria-hidden="true"></div>
+          </div>
+
+          <article class="job reveal">
+            <ul class="stagger">
+              <li data-fr="Portugais – langue maternelle" data-en="Portuguese – native"></li>
+              <li data-fr="Français – excellent à l’oral et à l’écrit" data-en="French – excellent spoken and written"></li>
+              <li data-fr="Anglais – très bon à l’oral et à l’écrit" data-en="English – very good spoken and written"></li>
+              <li data-fr="Allemand – en cours d’apprentissage" data-en="German – currently learning"></li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="block">
+          <div class="section-title">
+            <h2 data-fr="Référence" data-en="Reference"></h2>
+            <div class="line" aria-hidden="true"></div>
+          </div>
+
+          <article class="job reveal">
+            <p class="para"><strong>Alain Spinedi</strong></p>
+            <p class="para" data-fr="CEO, Louis Erard SA" data-en="CEO, Louis Erard SA"></p>
+            <p class="para">Tel: +41 79 240 32 92</p>
+            <p class="para">Email: alain.spinedi@gmail.com</p>
+          </article>
+        </div>
+
+      </main>
+    </div>
+  </div>
+
+  <script>
+    let lang = 'fr';
+
+    function applyLang(){
+      document.querySelectorAll('[data-fr]').forEach(el => {
+        el.textContent = el.dataset[lang];
+      });
+      document.getElementById('langBtn').textContent = lang.toUpperCase();
+      document.documentElement.lang = lang;
+    }
+
+    document.getElementById('langBtn').addEventListener('click', () => {
+      lang = (lang === 'fr') ? 'en' : 'fr';
+      applyLang();
+    });
+
+    const revealEls = Array.from(document.querySelectorAll('.reveal, .stagger'));
+
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if(entry.isIntersecting){
+          entry.target.classList.add('visible');
+          if(entry.target.classList.contains('stagger')) {
+            entry.target.classList.add('visible');
+          }
+        }
+      });
+    }, { threshold: 0.12 });
+
+    revealEls.forEach(el => io.observe(el));
+
+    applyLang();
+  </script>
+</body>
+</html>
